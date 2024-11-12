@@ -22,7 +22,7 @@
     </entry>
     <entry>
       <string>preloadProgramFile</string>
-      <file>/home/max/output.bin</file>
+      <file>/home/max/stuff/mcpu/mcpu-digital/hello_world.bin</file>
     </entry>
   </attributes>
   <visualElements>
@@ -551,7 +551,7 @@
         </entry>
         <entry>
           <string>Frequency</string>
-          <int>2147483647</int>
+          <int>10</int>
         </entry>
       </elementAttributes>
       <pos x="1300" y="300"/>
@@ -1333,12 +1333,12 @@
       <elementName>Register</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>REG_I</string>
-        </entry>
-        <entry>
           <string>valueIsProbe</string>
           <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>REG_I</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -1561,10 +1561,6 @@
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
-          <string>Input Splitting</string>
-          <string>32</string>
-        </entry>
-        <entry>
           <string>mirror</string>
           <boolean>true</boolean>
         </entry>
@@ -1573,12 +1569,16 @@
           <int>2</int>
         </entry>
         <entry>
-          <string>Output Splitting</string>
-          <string>4*8</string>
-        </entry>
-        <entry>
           <string>rotation</string>
           <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>32</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>4*8</string>
         </entry>
       </elementAttributes>
       <pos x="560" y="2160"/>
@@ -2025,16 +2025,16 @@
       <elementName>LedMatrix</elementName>
       <elementAttributes>
         <entry>
+          <string>ledPersistence</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
           <string>colAddrBits</string>
           <int>6</int>
         </entry>
         <entry>
           <string>rowDataBits</string>
           <int>32</int>
-        </entry>
-        <entry>
-          <string>ledPersistence</string>
-          <boolean>true</boolean>
         </entry>
       </elementAttributes>
       <pos x="2280" y="840"/>
@@ -2109,10 +2109,6 @@
           <string>lastDataFile</string>
           <file>/home/max/output.bin</file>
         </entry>
-        <entry>
-          <string>autoReload</string>
-          <boolean>true</boolean>
-        </entry>
       </elementAttributes>
       <pos x="1360" y="880"/>
     </visualElement>
@@ -2166,12 +2162,12 @@
       <elementName>RAMDualPort</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>DRAM</string>
-        </entry>
-        <entry>
           <string>AddrBits</string>
           <int>24</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>DRAM</string>
         </entry>
         <entry>
           <string>Bits</string>
