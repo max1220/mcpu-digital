@@ -11,4 +11,4 @@ memories, like the implementation in MineCraft.
 For online documentation and a web-based assembler and an emulator, see
 [mcpu-web](https://max1220.github.io/mcpu-web/)
 
-https://github.com/user-attachments/assets/c5c29b9b-b95b-419c-9b95-1ba5f7b10297
+[Kazam_screencast_00022.webm](https://github.com/user-attachments/assets/c2a96aa9-8074-4839-936f-4975a9d38fbd)
